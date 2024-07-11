@@ -12,11 +12,13 @@ import { Adios } from "../components/bye";
 
 function LandingPage() {
     return (
-        <Title />,
-        <Welcome />,
-        <MoiAsDuck />,
-        <Intro />,
-        <Adios />
+        <>
+            <Title />,
+            <Welcome />,
+            <MoiAsDuck />,
+            <Intro />,
+            <Adios />
+        </>
     )
 
 };
